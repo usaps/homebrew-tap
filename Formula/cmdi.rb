@@ -5,11 +5,12 @@ class Cmdi < Formula
   license "MIT"
 
   # macOS universal binary (Apple Silicon + Intel)
-  url "https://github.com/usaps/CMDI/releases/download/v0.1.0/cmdi-mac-universal"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  # Source code is private; binaries distributed from public releases repo
+  url "https://github.com/usaps/cmdi-releases/releases/download/v0.1.0/cmdi"
+  sha256 "c7ba754e34c800b3c80acd46e2ebb7c21cc96d38fbd5dbb391078595430f5098"
 
   def install
-    bin.install "cmdi-mac-universal" => "cmdi"
+    bin.install "cmdi"
     bin.install_symlink bin/"cmdi" => "command"
   end
 
