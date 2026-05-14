@@ -7,7 +7,7 @@ class Cmdi < Formula
   # macOS universal binary (Apple Silicon + Intel)
   # Source code is private; binaries distributed from public releases repo
   url "https://github.com/usaps/cmdi-releases/releases/download/v0.1.9/cmdi"
-  sha256 "5156b1e31862b9b9a44cd1c432aa3c3adcc193e7726b0ec0be17ca56a31f197b"
+  sha256 "38693b6fb7ac4e262286987f7f9563bfa02560c1346d983fe343a4c39a8ebeef"
 
   def install
     bin.install "cmdi"
