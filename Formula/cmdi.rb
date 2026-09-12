@@ -1,13 +1,13 @@
 class Cmdi < Formula
   desc "High-speed, intelligent media offloading for film sets"
   homepage "https://github.com/usaps/CMDI"
-  version "0.1.18"
+  version "0.1.19"
   license "MIT"
 
   # macOS universal binary (Apple Silicon + Intel)
   # Source code is private; binaries distributed from public releases repo
-  url "https://github.com/usaps/cmdi-releases/releases/download/v0.1.18/cmdi"
-  sha256 "4c69427a3d13a4568c82468b124577a609efbd9fba7699a54b99ebf20c81fab8"
+  url "https://github.com/usaps/cmdi-releases/releases/download/v0.1.19/cmdi"
+  sha256 "e740c0f5c93719ecbcf69be348d698ded6c0b759ec784af2fb4d775154cf9b84"
 
   def install
     bin.install "cmdi"
